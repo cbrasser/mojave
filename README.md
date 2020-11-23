@@ -1,5 +1,7 @@
 # mojave
 
+![preview](https://github.com/cbrasser/mojave/blob/main/mojave_peek.gif)
+
 This is a startpage concept built after the hacking minigame from the fallout game series.
 
 Im not really using it as my startpage since i like having links available without solving a puzzle, usually.
