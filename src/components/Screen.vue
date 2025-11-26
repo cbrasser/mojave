@@ -1,6 +1,6 @@
 <template>
   <div class="frame">
-    <img src="./../frame2.png" alt="" />
+    <img :src="frameImage" alt="" />
     <div class="screen">
       <Game v-on:done="openStartpage()" v-if="status === 0" />
       <Startpage v-if="status === 1" />
@@ -11,6 +11,7 @@
 <script>
 import Game from "./Game.vue";
 import Startpage from "./Startpage.vue";
+import frameImage from "../frame2.png";
 
 export default {
   name: "Screen",
@@ -21,6 +22,7 @@ export default {
   data() {
     return {
       status: 0,
+      frameImage,
     };
   },
   props: {},
